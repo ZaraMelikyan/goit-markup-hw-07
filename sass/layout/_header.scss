@@ -9,7 +9,7 @@
 .header__container, 
 .navigation, 
 .menu,
-.tel-mail {
+.contact {
     display: flex;
 }
 
@@ -22,7 +22,7 @@
 }
 
 
-.menu__list {
+.menu__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -39,7 +39,7 @@
     }
 }
 
-.menu__list_current {
+.menu__link_current {
     position: relative;
     color: var(--acsent-text-color);
 
@@ -56,11 +56,11 @@
     }
 }
 
-.header__tel-mail {
+.contact {
     margin-left: auto;
 }
 
-.tel-mail__list {
+.contact__link {
     display: flex;
     align-items: center;
     padding-top: 32px;
@@ -78,13 +78,13 @@
     }
 }
 
-.tel-mail__item + .tel-mail__item {
+.contact__item + .contact__item {
     display: flex;
     align-items: center;
     margin-left: 30px;
 }
    
-.tel-mail__icon {
+.contact__icon {
     fill: currentColor;
     margin-right: 10px; 
 }

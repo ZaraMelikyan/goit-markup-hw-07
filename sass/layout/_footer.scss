@@ -4,22 +4,17 @@
     background-color: var(--secondary-background-color);
 }
 
-.flex-container {
-    display: flex;
-    align-items: baseline;
-}
-
-.contact {
+.contacts {
     margin-top: 20px;
     min-width: 231px;
 }
 
-.contact__item:not(:last-child) {
+.contacts__item:not(:last-child) {
     margin-bottom: 9px;
     display: block;
 }
 
-.contact__address {
+.contacts__link {
      font-style: normal;
      line-height: 1.71;
      color: var(--primary-white-color);
@@ -32,20 +27,11 @@
      }
  }
    
-.contact__info {
-     font-style: normal;
-     line-height: 1.71;
-     color: rgba(255, 255, 255, 0.6);
-     text-decoration: none;
-     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-     
-     &:hover,
-     &:focus {
-          color: var(--acsent-text-color);
-     }
+.social__link_color_grey {
+     color: rgba(255, 255, 255, 0.6);     
  }
 
-.social-container {
+.social_container {
     margin-left: 70px;
 }
 
